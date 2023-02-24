@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .show-model {
+            margin-top: 3vh;
+            width: 20vh;
+            height: 5vh;
+            border-radius: 20vh;
+            border: none;
+            font-weight: bold;
+            font-size: 2vh;
+            color: rgb(26, 26, 26);
+            background-color: rgb(229, 236, 233);
+        }
+
+        body {
+            background-color: rgb(109, 238, 145);
+        }
+
+        .div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+        }
+
+        
+        .model{
+
+            height: 40vh;
+            width: 50vh;
+            background-color: aliceblue;
+            margin:  5% 10% 10% 10%;
+            padding: 1% 5%;
+            border-radius: 10%;
+        }
+
+        .hidden{
+            display: none;
+        }
+       
+
+        .head{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .close-model {
+            height: 4vh;
+            font-size: 4vh;
+         width: 10%;
+            margin-top: 4vh;
+            margin-left: 10%;
+            border-radius: 25%;
+           
+            width: 10%;
+            border: none;
+         
+           
+          
+
+
+
+        }
+        h1{
+            text-align: center;
+            width: 80%;
+           
+           
+           
+           
+        }
+
+         p {
+            text-align: center;
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="button">
+        <button class="show-model">show modal 1</button>
+        <button class="show-model">show modal 2</button>
+        <button class="show-model">show modal 3</button>
+
+
+    </div>
+
+    <div class="div">
+        <div class="model hidden">
+            <div class="head">
+                <h1>I'm a model window</h1>
+                <button class="close-model">&times;</button>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima amet excepturi eaque natus quae
+                illum
+                repellat nemo distinctio aliquid, optio veniam rerum non maxime aperiam nam quam obcaecati. Aspernatur
+                reprehenderit laboriosam impedit quas ducimus?</p>
+        </div>
+        <div class="overlay hidden"></div>
+    </div>
+
+    <script src="/code/DOM_Basic/project.js"></script>
+</body>
+
+</html>
